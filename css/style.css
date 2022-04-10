@@ -109,6 +109,13 @@ header{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.icon--inicio:hover{
+    cursor: pointer;
+    rotate: 10rem;
+    width: 105px;
+    transition: .5s;
+}
+
 /* Productos */
 
 .layout--productos{
@@ -130,6 +137,13 @@ header{
 .img--productos{
     width: 95%;
     margin: 10px 8px;
+    transform: translate3d(1px, 1px, 1);
+    transition: transform 0.5s ease;  
+}
+
+.img--productos:hover{
+    cursor: pointer;
+    transform: translate3d(1px, 1px, 50px) rotate3d(3, 2, 2, 5deg);
 }
 
 /* Sobre Nosotros */
