@@ -67,39 +67,29 @@
     <section>
     
     <div class="formulario--container">   
-        <form action="" class="formulario">
-            <fieldset>
-                <legend>
-                    Formulario
-                </legend>
-
-                <div>
-                    <label for="nombre">Completa tu Nombre</label>
-                </div>
-                <input type="text" name="nombre" placeholder="Nombre">
-
-                <div>
-                    <label for="email">Completa tu Email</label>
-                </div>    
-                    <input type="email" name="email" placeholder="Email">
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-                </div>
-
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-                </div>
-            </fieldset>
-        </form>
+        <form>
+            <ul class="form-style-1">
+                <li><label>Nombre Completo <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Nombre" /> <input type="text" name="field2" class="field-divided" placeholder="Apellido" /></li>
+                <li>
+                    <label>Email <span class="required">*</span></label>
+                    <input type="email" name="field3" class="field-long" />
+                </li>
+                <li>
+                    <label>Mensaje <span class="required">*</span></label>
+                    <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Enviar" />
+                </li>
+            </ul>
+            </form>
     </div> 
 
     </section>
 
     </main>
 
-    <footer id="irFooter">
+    <footer id="footer__formulario">
 
         <p class="footer__p">Todos los derechos reservados ®</p>
 
