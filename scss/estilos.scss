@@ -38,7 +38,8 @@ header nav{
     text-decoration: none;
     color: black;
     font-size: $font-cel;
-    font-weight: 500;
+    font-weight: map-get($fontweight , 4);
+
 }
 
 .item:hover{
@@ -73,8 +74,6 @@ header{
 .fondo{
     grid-area: img;
     background-image: url(../img/portada_3.jpg);
-    height: 60vh; /* 768px */
-    width: 60vh;
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
@@ -82,6 +81,7 @@ header{
     display: flex;
     overflow: hidden;
     width: auto;
+    @include size(auto, 60vh);
 }
 
 .texto__inicio{
@@ -190,6 +190,7 @@ header{
 }
 
 .boton--ubicacion:hover{
+    @extend.boton--ubicacion;
     color: #5e5e5e;
 }
 

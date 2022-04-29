@@ -57,16 +57,15 @@ header {
 .fondo {
   grid-area: img;
   background-image: url(../img/portada_3.jpg);
-  height: 60vh;
-  /* 768px */
-  width: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   overflow: hidden;
-  width: auto; }
+  width: auto;
+  width: auto;
+  height: 60vh; }
 
 .texto__inicio {
   margin: 20px;
@@ -144,7 +143,7 @@ header {
   padding-top: 20px;
   padding-bottom: 27rem; }
 
-.boton--ubicacion {
+.boton--ubicacion, .boton--ubicacion:hover {
   background-color: #FFF290;
   font-size: 1rem;
   color: black;
@@ -330,7 +329,7 @@ footer {
   /* Ubicacion */
   .img--ubicacion {
     height: 100%; }
-  .boton--ubicacion {
+  .boton--ubicacion, .boton--ubicacion:hover {
     font-size: 1.1rem;
     margin-bottom: 13rem; }
   .div--boton {
@@ -393,7 +392,7 @@ footer {
   .p--historia {
     font-size: 20px; }
   /* Ubicacion */
-  .boton--ubicacion {
+  .boton--ubicacion, .boton--ubicacion:hover {
     font-size: 1.1rem;
     margin-bottom: 0;
     padding-bottom: 0; }
