@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   margin: 0;
   padding: 0; }
 
@@ -27,7 +27,7 @@ header nav {
   text-decoration: none;
   color: black;
   font-size: 12px;
-  font-weight: 500; }
+  font-weight: 400; }
 
 .item:hover {
   color: #FFF290;
@@ -244,13 +244,7 @@ footer {
   display: flex;
   justify-content: space-between; }
 
-#footer__formulario {
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  width: 100%; }
-
-#footer__ubicacion {
+#footer__responsive {
   bottom: 0;
   position: fixed;
   left: 0;

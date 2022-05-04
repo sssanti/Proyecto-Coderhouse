@@ -2,7 +2,7 @@
 @import "utilities/variables";
 
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     margin: 0;
     padding: 0;
 }
@@ -38,9 +38,8 @@ header nav{
     text-decoration: none;
     color: black;
     font-size: $font-cel;
-    font-weight: map-get($fontweight , 4);
-
-}
+    font-weight: map-get($fontweight ,4);
+} 
 
 .item:hover{
     color: $color-principal;
@@ -290,14 +289,7 @@ footer{
     justify-content: space-between;
 }
 
-#footer__formulario{
-    bottom:  0;
-    position: fixed;
-    left: 0;
-    width: 100%;
-}
-
-#footer__ubicacion{
+#footer__responsive{
     bottom:  0;
     position: fixed;
     left: 0;
